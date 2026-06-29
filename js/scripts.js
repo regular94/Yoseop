@@ -6,7 +6,7 @@
 
 // 링크 복사
 function copyLink(){
-	var url = 'https://comgongnuna.github.io/';
+	var url = 'https://regular94.github.io/Yoseop/';
 	var textarea = document.createElement("textarea");
 	document.body.appendChild(textarea);
 	textarea.value = url;
@@ -64,18 +64,18 @@ function kakaoShare() {
         content: {
         title: '수아🤍요섭 결혼합니다.',
         description: '2026.07.04\n오전 11시 노보텔 앰배서더 서울 강남',
-        imageUrl: 'https://github.com/jaeyun95/jaeyun95.github.io/blob/main/assets/img/main.jpg?raw=true',
+        imageUrl: 'https://raw.githubusercontent.com/regular94/Yoseop/main/assets/img/main.jpg',
         link: {
-            mobileWebUrl: 'https://comgongnuna.github.io/#!',
-            webUrl: 'https://comgongnuna.github.io/#!',
+            mobileWebUrl: 'https://regular94.github.io/Yoseop/',
+            webUrl: 'https://regular94.github.io/Yoseop/',
         },
         },
         buttons: [
         {
             title: '모바일 청첩장 보기',
             link: {
-            mobileWebUrl: 'https://comgongnuna.github.io/#!',
-            webUrl: 'https://comgongnuna.github.io/#!',
+            mobileWebUrl: 'https://regular94.github.io/Yoseop/',
+            webUrl: 'https://regular94.github.io/Yoseop/',
             },
         },
         ],
