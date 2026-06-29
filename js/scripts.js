@@ -63,7 +63,7 @@ function kakaoShare() {
         objectType: 'feed',
         content: {
         title: '수아🤍요섭 결혼합니다.',
-        description: '2024.03.01\n11시 30분 빌라드지디 청담',
+        description: '2026.07.04\n오전 11시 빌라드지디 청담',
         imageUrl: 'https://github.com/jaeyun95/jaeyun95.github.io/blob/main/assets/img/main.jpg?raw=true',
         link: {
             mobileWebUrl: 'https://comgongnuna.github.io/#!',
