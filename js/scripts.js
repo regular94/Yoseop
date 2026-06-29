@@ -55,10 +55,10 @@ function groomsFatherAccountNumber(){
 
 // 카카오톡 공유하기
 function kakaoShare() {
-    Kakao.init('fca2b5548e7971c2fdca09e8d43e1181');
-    // SDK 초기화 여부를 판단합니다.
-    Kakao.isInitialized();
-    //console.log(Kakao.isInitialized());
+    // 이미 초기화된 경우 재초기화하지 않음 (재호출 시 에러 방지)
+    if (!Kakao.isInitialized()) {
+        Kakao.init('fca2b5548e7971c2fdca09e8d43e1181');
+    }
     Kakao.Share.sendDefault({
         objectType: 'feed',
         content: {
